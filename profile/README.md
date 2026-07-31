@@ -4,9 +4,8 @@ Open-source EMR for short-term medical mission clinics, built for unreliable con
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christmedical/christmedical.com/main/docs/assets/architecture-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/christmedical/christmedical.com/main/docs/assets/architecture-light.png">
-    <img alt="Christ Medical architecture" src="https://raw.githubusercontent.com/christmedical/christmedical.com/main/docs/assets/architecture-light.png" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="architecture-dark.png">
+    <img alt="Christ Medical architecture" src="architecture-light.png" width="100%">
   </picture>
 </p>
 
