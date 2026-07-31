@@ -2,12 +2,10 @@
 
 Open-source EMR for short-term medical mission clinics, built for unreliable connectivity.
 
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="architecture-dark.png">
     <img alt="Christ Medical architecture" src="architecture-light.png" width="100%">
   </picture>
-</p>
 
 <p align="center">
 
