@@ -1,38 +1,32 @@
 # Christ Medical
 
-Christ Medical is the patient records system for mission medical clinics.
+The chart a church clinic team carries to Belize. Medical care and spiritual care in the same visit.
 
-## What it does
+<img alt="A clinic day in Belize: secretary, nurse, doctor, and pastor, with a patient walking the clinic path. One record for medical care and spiritual care." src="clinic-day.png" width="100%">
 
-It keeps each patient's medical care and spiritual care in one record, so the team can care for the whole person.
+*Personal project for a short-term church clinic. Not a hospital product.*
 
-| Medical care | Spiritual care |
-|---|---|
-| History and allergies, vitals, the reason for the visit, a diagnosis, and a plan for care | Whether a patient has heard the gospel, whether they have shown hope or interest, and notes on spiritual care |
+Secretary finds the patient even if the name is spelled differently.
 
-Leaders see both on one dashboard: how many visits are on record, and how many patients have heard the gospel or shown hope or interest. Staff can find a patient even when the name is spelled differently.
+Nurse records vitals.
 
-Made for short-term mission clinics, starting with a team serving in Belize.
+Doctor writes the visit.
 
-Coming next: new-patient check-in, medications, and prayer and follow-up.
+Pastor notes hope, interest, and prayer.
 
-## A clinic day
+Leaders see visits and spiritual care on one dashboard.
 
-<p>
-  <img alt="Clinic day diagram: arrival and check-in, vitals, exam, medications, spiritual follow-up, and discharge." src="https://raw.githubusercontent.com/christmedical/christmedical.com/main/docs/design/usage-journey.svg" width="100%">
-</p>
+Made for short-term mission clinics, starting with a team serving in Belize. Paper summary still goes home with the patient.
 
-How a patient is meant to move through the clinic, and which screen serves each step.
+Coming next: check-in, medications, and prayer and follow-up.
 
 ## Start here
 
-The active system lives in **[christmedical.com](https://github.com/christmedical/christmedical.com)** — the current mission-clinic EMR (.NET API, Next.js PWA, PostgreSQL, field hub).
+The active system is **[christmedical.com](https://github.com/christmedical/christmedical.com)** (.NET API, Next.js PWA, PostgreSQL, field hub).
 
-Everything else in this org is the **2016 prototype**, kept public as history. Start with the repo above unless you are excavating that earlier stack.
+Other repos in this org are the 2016 prototype.
 
-## How it is built
-
-Open-source EMR for short-term medical mission clinics, built for unreliable connectivity.
+## How the box stays up when the link dies
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="architecture-dark.png">
@@ -48,7 +42,7 @@ Open-source EMR for short-term medical mission clinics, built for unreliable con
 
 </p>
 
-Christ Medical is a multi-tenant EMR for short-term mission clinics. Field teams run an offline-tolerant hub with a checkout model: tablets talk to the hub over the local network while connectivity is thin, then a nightly one-way backup carries charts home when the link allows. Calm clinical UI, sunlight-readable tablets, Sanctified Bronze branding — tools built for the field, not a hospital LAN.
+Tablets talk to the hub on the clinic LAN, then a nightly one-way backup carries charts home.
 
 ## License
 
