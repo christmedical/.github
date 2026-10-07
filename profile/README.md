@@ -20,11 +20,11 @@ Made for short-term mission clinics, starting with a team serving in Belize. Pap
 
 <br clear="left">
 
-<img alt="How a patient moves through the clinic: check-in, vitals, exam, medications, spiritual care, and discharge." src="https://raw.githubusercontent.com/christmedical/christmedical.com/main/docs/design/usage-journey.svg" width="100%">
-
 | <h3>✚ Medical care</h3> | <h3>✟ Spiritual care</h3> |
 |---|---|
 | History and allergies, vitals, the reason for the visit, a diagnosis, and a plan for care | Whether a patient has heard the gospel, whether they have shown hope or interest, and notes on spiritual care |
+
+<img alt="How a patient moves through the clinic: check-in, vitals, exam, medications, spiritual care, and discharge." src="https://raw.githubusercontent.com/christmedical/christmedical.com/main/docs/design/usage-journey.svg" width="100%">
 
 Coming next: check-in, medications, and prayer and follow-up.
 
